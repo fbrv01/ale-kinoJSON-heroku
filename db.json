@@ -1,9 +1,263 @@
 {
-  "posts":[
+  "login": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "email": "",
+      "password": "",
+      "id": 1
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 2
+    }
+  ],
+  "orders":
+    {
+      "id": "",
+      "date": "",
+      "userData": {
+        "firstName": "",
+        "lastName": "",
+        "phoneNumber":"" ,
+        "email": "",
+        "confirmEmail": "",
+        "newsletter": false,
+        "couponCode": ""
+      }
+    },
+  "coupons":
+  [
+    {
+      "id": 1,
+      "code": "aleKino",
+      "couponRate": 0.8,
+      "wasUsed": false
+    },
+    {
+      "id": 2,
+      "code": "promo10",
+      "couponRate": 0.9,
+      "wasUsed": false
+    },
+    {
+      "id": 3,
+      "code": "promoSTART",
+      "couponRate": 0.5,
+      "wasUsed": false
+    }
+  ],
+  "users": [
+    {
+      "userID": 18634,
+      "firstName": "Mark",
+      "lastName": "Twain",
+      "email": "mark@twain.com",
+      "password": "passwordpassword123",
+      "phoneNumber": 123456789,
+      "role": "User"
+    },
+    {
+      "userID": 11337,
+      "firstName": "James",
+      "lastName": "Joyce",
+      "email": "admin@elokino.com",
+      "password": "hackerman123!",
+      "phoneNumber": 987654321,
+      "role": "Admin"
+    }
+  ],
+  "movieRatings": [
+    {
+      "movieId": 1267943,
+      "userID": 168395,
+      "rating": 5,
+      "id": 1
+    },
+    {
+      "movieId": 1267943,
+      "userID": 168395,
+      "rating": 5,
+      "id": 1
+    }
+  ],
+  "ticketTypes": [
+    {
+      "id": 1,
+      "name": "Normal ticket",
+      "price": 25
+    },
+    {
+      "id": 2,
+      "name": "Family ticket",
+      "price": 20
+    },
+    {
+      "id": 3,
+      "name": "Reduced-fare ticket",
+      "price": 15
+    },
+    {
+      "id": 4,
+      "name": "Voucher",
+      "price": 25
+    }
+  ],
+  "movies": [
+    {
+      "title": "Totalny kataklizm",
+      "id": 1213644,
+      "imageUrl": "https://fwcdn.pl/fpo/04/94/480494/7217541.6.jpg",
+      "genres": [
+        "Komedia",
+        "Sci-Fi"
+      ],
+      "time": "90 minut",
+      "ageRestriction": "PG-13",
+      "descriptionShort": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis dictum turpis, ut viverra orci. In malesuada, diam in consequat malesuada, enim purus faucibus ex, condimentum vulputate mauris ex vel massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis dictum turpis, ut viverra orci. In malesuada, diam in consequat malesuada, enim purus faucibus ex, condimentum vulputate mauris ex vel massa.",
+      "descriptionLong": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis dictum turpis, ut viverra orci. In malesuada, diam in consequat malesuada, enim purus faucibus ex, condimentum vulputate mauris ex vel massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis dictum turpis, ut viverra orci. In malesuada, diam in consequat malesuada, enim purus faucibus ex, condimentum vulputate mauris ex vel massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "duration": 87,
+      "isPremiere": true
+    },
+    {
+      "title": "Manos - Ręce przeznaczenia",
+      "id": 60666,
+      "imageUrl": "https://fwcdn.pl/fpo/16/51/31651/7648445.6.jpg",
+      "genres": [
+        "Horror"
+      ],
+      "time": "1h 10 minut",
+      "ageRestriction": "PG-16",
+      "descriptionShort": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis dictum turpis, ut viverra orci. In malesuada, diam in consequat malesuada, enim purus faucibus ex, condimentum vulputate mauris ex vel massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis dictum turpis, Lorem ipsum dolor sit amet, consectetur adipiscing elit. ut viverra orci.",
+      "descriptionLong": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis dictum turpis, ut viverra orci. In malesuada, diam in consequat malesuada, enim purus faucibus ex, condimentum vulputate mauris ex vel massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis dictum turpis, Lorem ipsum dolor sit amet, consectetur adipiscing elit. ut viverra orci. In malesuada, diam in consequat malesuada, enim purus faucibus ex, condimentum vulputate mauris ex vel massa.",
+      "duration": 70,
+      "isPremiere": false
+    },
+    {
+      "title": "Superdzieciaki: Geniusze w pieluchach II",
+      "id": 270846,
+      "imageUrl": "https://fwcdn.pl/fpo/59/40/105940/6922073.6.jpg",
+      "genres": [
+        "Komedia"
+      ],
+      "time": " 1h 28 minut",
+      "ageRestriction": "PG (Pod nazdorem Dorosłych)",
+      "descriptionShort": " Lorem ipsum dolor sit amet In quis dictum turpis, ut viverra orci. In malesuada, diam in consequat malesuada, condimentum vulputate mauris ex vel massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis dictum turpis, Lorem ipsum dolor sit amet, consectetur adipiscing elit. ut viverra orci.",
+      "descriptionLong": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis dictum turpis, ut viverra orci. In malesuada, diam in consequat malesuada, enim purus faucibus ex, condimentum vulputate mauris ex vel massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis dictum turpis, Lorem ipsum dolor sit amet, consectetur adipiscing elit. ut viverra orci. In malesuada, diam in consequat malesuada, enim purus faucibus ex, condimentum vulputate mauris ex vel massa.",
+      "duration": 90,
+      "isPremiere": false
+    }
+  ],
+  "showings": [
+    {
+      "id": 16,
+      "movieId": 1213644,
+      "movieTitle": "Totalny kataklizm",
+      "date": "2023-03-05",
+      "break": 20,
+      "timeFrom": "14:30",
+      "timeTo": "16:30",
+      "rows": 10,
+      "columns": 11,
+      "hallId": 1
+    },
+    {
+      "id": 20,
+      "movieId": 1213644,
+      "movieTitle": "Totalny kataklizm",
+      "date": "2023-03-06",
+      "break": 15,
+      "timeFrom": "17:00",
+      "timeTo": "19:00",
+      "rows": 10,
+      "columns": 10,
+      "hallId": 1
+    },
+    {
+      "id": 21,
+      "movieId": 60666,
+      "movieTitle": "Manos - Ręce przeznaczenia",
+      "date": "2023-03-06",
+      "break": 15,
+      "timeFrom": "20:30",
+      "timeTo": "22:00",
+      "rows": 10,
+      "columns": 11,
+      "hallId": 1
+    },
+    {
+      "id": 24,
+      "movieId": 270846,
+      "movieTitle": "Superdzieciaki: Geniusze w pieluchach II",
+      "date": "2023-03-07",
+      "break": 15,
+      "timeFrom": "16:00",
+      "timeTo": "17:30",
+      "rows": 10,
+      "columns": 12,
+      "hallId": 1
+    }
+  ],
+  "reservedSeats": [
+    {
+      "rowSeat": "D",
+      "columnSeat": 10,
+      "showingID": 24,
+      "userID": 18634,
+      "id": "24D10"
+    }
+  ],
+  "bookedSeats": [
+    {
+      "rowSeat": "I",
+      "columnSeat": 5,
+      "ticketTypeName": "Normal ticket",
+      "ticketPrice": 25,
+      "showingID": 24,
+      "userID": 18634,
+      "orderID": "dd8dfc43-90a6-41c0-a162-aa5bdbc851c5",
+      "date": "2023-03-07",
+      "id": 1
+    }
+  ],
+  "screeningHalls": [
+    {
+      "id": 1,
+      "name": "Small Hall",
+      "rows": 8,
+      "columns": 6
+    },
+    {
+      "id": 2,
+      "name": "Big Hall",
+      "rows": 10,
+      "columns": 10
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "",
+      "userID": "",
+      "movieID": "",
+      "movieTitle": ""
+    },
+    {
+      "userID": "",
+      "movieID": "",
+      "movieTitle": "",
+      "id": ""
+    }
+  ],
+  "cart": [
+    {
+      "ticketTypeName": "",
+      "ticketPrice": "",
+      "rowSeat": "",
+      "columnSeat": "",
+      "userID": "",
+      "showingId": "",
+      "id": "",
+      "inCart": true,
+      "timestamp": ""
     }
   ]
 }
