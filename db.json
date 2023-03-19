@@ -83,17 +83,17 @@
   "ticketTypes": [
     {
       "id": 1,
-      "name": "Normal ticket",
+      "name": "Normalny",
       "price": 25
     },
     {
       "id": 2,
-      "name": "Family ticket",
+      "name": "Karta dużej rodziny",
       "price": 20
     },
     {
       "id": 3,
-      "name": "Reduced-fare ticket",
+      "name": "Uczniowski",
       "price": 15
     },
     {
@@ -222,13 +222,13 @@
   "screeningHalls": [
     {
       "id": 1,
-      "name": "Small Hall",
+      "name": "Mała sala",
       "rows": 8,
       "columns": 6
     },
     {
       "id": 2,
-      "name": "Big Hall",
+      "name": "Duża sala",
       "rows": 10,
       "columns": 10
     }
